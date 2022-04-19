@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="692" height="461" viewBox="0 0 692 461">
+  <defs>
+    <clipPath id="clip-color_palette">
+      <rect width="692" height="461"/>
+    </clipPath>
+  </defs>
+  <g id="color_palette" data-name="color palette" clip-path="url(#clip-color_palette)">
+    <rect width="692" height="461" fill="#fff"/>
+    <g id="Group_6" data-name="Group 6" transform="translate(2 7)">
+      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(258 30)" fill="#3bcdca" stroke="#707070" stroke-width="1">
+        <rect width="172" height="170" rx="31" stroke="none"/>
+        <rect x="0.5" y="0.5" width="171" height="169" rx="30.5" fill="none"/>
+      </g>
+      <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(39 247)" fill="#253141" stroke="#707070" stroke-width="1">
+        <rect width="172" height="170" rx="31" stroke="none"/>
+        <rect x="0.5" y="0.5" width="171" height="169" rx="30.5" fill="none"/>
+      </g>
+      <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(39 30)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="172" height="170" rx="31" stroke="none"/>
+        <rect x="0.5" y="0.5" width="171" height="169" rx="30.5" fill="none"/>
+      </g>
+      <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(477 35)" fill="#468cef" stroke="#707070" stroke-width="1">
+        <rect width="172" height="170" rx="31" stroke="none"/>
+        <rect x="0.5" y="0.5" width="171" height="169" rx="30.5" fill="none"/>
+      </g>
+      <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(258 247)" fill="#385283" stroke="#707070" stroke-width="1">
+        <rect width="172" height="170" rx="31" stroke="none"/>
+        <rect x="0.5" y="0.5" width="171" height="169" rx="30.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
