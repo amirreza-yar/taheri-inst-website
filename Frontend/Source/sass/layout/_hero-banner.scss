@@ -1,0 +1,14 @@
+
+.hero-banner {
+    @extend .d-flex, .justify-content-center, .align-items-center;
+
+    h1 {
+        // background-color: red;
+        color: $text-light;
+        font-size: 7.5vw;
+    }
+    font-family: Sahel;
+    background-color: $secondary-bg;
+    min-height: 360px;
+    height: 40vw;
+}

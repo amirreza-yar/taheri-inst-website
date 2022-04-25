@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+	<link rel="stylesheet" href="sass/app.css" >
+	
+</head>
+<body>
+	<header class="custom-container">
+		<nav class="navbar navbar-expand-md navbar-blue container-fluid">
+			<div class="container">
+				
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<button type="button" class="nav-item profile-btn">
+							<img src="./profile-logo.svg" alt="Profile logo" width="35" height="35">
+						</button>
+						<button onclick="openNav()" type="button" class="nav-item home-btn">
+							خانه
+						</button>
+
+						<div id="mySidenav" class="sidenav">
+							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+							<a href="#">About</a>
+							<a href="#">Services</a>
+							<a href="#">Clients</a>
+							<a href="#">Contact</a>
+						</div>
+						
+						<li class="nav-item">
+							<a class="nav-link" href="#">پروژه ها</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">اخبار</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">بلاگ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">درباره ما</a>
+						</li>
+					</ul>
+				</div>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img src="./logo.png" width="60px" height="60px" alt="taheri inst.">
+				</a>
+			</div>
+		</nav>
+		<div class="hero-banner container-fluid">
+			<h1 class="">پژوهشکده شهید طاهری</h1>
+		</div>
+	</header>
+
+	<section class="custom-container">
+		<div class="d-flex container py-5">
+			<img src="./aboutus-photo.svg" width="150" height="147" class="mx-4 my-3" alt="photo">
+			<div id="about-us" class="flex p-4">
+				<h1 class="font-sahel">درباره ما</h1>
+				<p class="font-sahel fs-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+				<button type="button" class="left-0">بیشتر درباره ما</button>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+		}
+		
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
+	
+</body>
+</html>
