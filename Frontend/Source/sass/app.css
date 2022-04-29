@@ -11498,7 +11498,51 @@ fieldset:disabled .btn {
   }
 }
 
-.home-btn {
+.primary-bg {
+  background-color: #253141;
+}
+
+.secondary-bg {
+  background-color: #385283;
+}
+
+.blue-bg {
+  background-color: #468cef;
+}
+
+.light-grey {
+  background-color: #f2f1f1;
+}
+
+.dark-grey-bg {
+  background-color: #253141;
+}
+
+.blue-background {
+  background-color: #468cef;
+}
+
+.text-dark {
+  color: #253141;
+}
+
+.text-light {
+  color: #ffffff;
+}
+
+.text-grey {
+  color: #d4d4d4;
+}
+
+.text-green-bg {
+  background-color: #3bcdca;
+}
+
+.text-green-blue {
+  color: #3bcdca;
+}
+
+.base-btn, .fill-btn {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   padding: 0 1.5rem;
@@ -11515,14 +11559,62 @@ fieldset:disabled .btn {
   background: none;
 }
 
-.home-btn:hover, .home-btn:focus {
+.fill-btn:hover, .fill-btn:focus {
   -webkit-box-shadow: inset 0 0 0 2em #3bcdca;
           box-shadow: inset 0 0 0 2em #3bcdca;
   border-color: #3bcdca;
   color: #000;
 }
 
-.profile-btn {
+.width-sm-disapear {
+  display: none;
+}
+
+.offset {
+  color: #385283;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  background: none;
+  border: none;
+  font: inherit;
+  line-height: 1;
+  padding: 0.5em 1em;
+  -webkit-box-shadow: 0.3em 0.3em 0 0 #468cef, inset 0.3em 0.3em 0 0 #468cef;
+          box-shadow: 0.3em 0.3em 0 0 #468cef, inset 0.3em 0.3em 0 0 #468cef;
+}
+
+.offset:hover, .offset:focus {
+  border-color: #3bcdca;
+  color: #fff;
+}
+
+.offset:hover, .offset:focus {
+  color: #253141;
+  -webkit-box-shadow: 0 0 0 0 #3bcdca, inset 6em 3.5em 0 0 #3bcdca;
+          box-shadow: 0 0 0 0 #3bcdca, inset 6em 3.5em 0 0 #3bcdca;
+}
+
+.offset-green-blue {
+  color: #ffffff;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  background: none;
+  border: none;
+  font: inherit;
+  line-height: 1;
+  padding: 0.5em 1em;
+  -webkit-box-shadow: 0.3em 0.3em 0 0 #3bcdca, inset 0.3em 0.3em 0 0 #3bcdca;
+          box-shadow: 0.3em 0.3em 0 0 #3bcdca, inset 0.3em 0.3em 0 0 #3bcdca;
+}
+
+.offset-green-blue:hover, .offset-green-blue:focus {
+  border-color: #3bcdca;
+  color: #253141;
+  -webkit-box-shadow: 0 0 0 0 #468cef, inset 6em 3.5em 0 0 #468cef;
+          box-shadow: 0 0 0 0 #468cef, inset 6em 3.5em 0 0 #468cef;
+}
+
+.simple-btn {
   border: none;
   display: inline-block;
   background: none;
@@ -11563,16 +11655,6 @@ body, head {
   font-size: larger;
 }
 
-@font-face {
-  font-family: 'Sahel';
-  src: url("fonts/sahel-semibold/Sahel-SemiBold.eot?#") format("eot");
-}
-
-@font-face {
-  font-family: 'Tanha';
-  src: url("./fonts/tanha/Tanha.eot?#") format("eot");
-}
-
 .hero-banner {
   font-family: Sahel;
   background-color: #385283;
@@ -11587,6 +11669,14 @@ body, head {
 
 .font-sahel {
   font-family: Sahel;
+}
+
+.font-sahel-bold {
+  font-family: Sahelbold;
+}
+
+.font-sahel-black {
+  font-family: Sahelblack;
 }
 
 .sidenav {

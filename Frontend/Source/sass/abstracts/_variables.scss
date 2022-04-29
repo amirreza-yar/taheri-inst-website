@@ -8,10 +8,48 @@ $blue-bg: #468cef;
 $light-grey-bg: #f2f1f1;
 $dark-grey-bg: #253141;
 
+.primary-bg {
+    background-color: $primary-bg; 
+}
+.secondary-bg {
+    background-color: $secondary-bg;
+}
+.blue-bg {
+    background-color: $blue-bg;
+}
+.light-grey {
+    background-color: $light-grey-bg;
+}
+.dark-grey-bg {
+    background-color: $dark-grey-bg;
+}
+
+.blue-background {
+    background-color: $blue-bg;
+}
+
 // TEXT COLOR
 $text-dark: #253141;
 $text-light: #ffffff;
 $text-grey: #d4d4d4;
 
+.text-dark {
+    color: $text-dark;
+}
+.text-light {
+    color: $text-light;
+}
+.text-grey {
+    color: #d4d4d4;
+}
+
 // COMPONENTS COLOR
 $green-blue: #3bcdca;
+
+.text-green-bg {
+    background-color: $green-blue;
+}
+
+.text-green-blue {
+    color: $green-blue;
+}
