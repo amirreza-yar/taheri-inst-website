@@ -1,4 +1,4 @@
-@import "./vendors/bootstrap-5.0.2/scss/bootstrap";
+@import "./vendors/bootstrap-5.1.3/scss/bootstrap.scss";
 @import "./abstracts/variables";
 @import "./components/buttons";
 @import "./core/resets";
@@ -6,6 +6,8 @@
 // @import "./abstracts/fonts";
 @import "./layout/hero-banner";
 @import "./layout/about-us";
+
+$carousel-control-width: 5% !important;
 
 .sidenav {
     height: 100%;
