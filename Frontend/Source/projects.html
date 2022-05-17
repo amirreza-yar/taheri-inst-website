@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+	<link rel="stylesheet" href="sass/app.css">
+	<link rel="stylesheet" href="./sass/abstracts/fonts.css">
+</head>
+<body dir="rtl">
+	<div id="content-opacity" onclick="closeNav()" class="vh-100 w-0 position-fixed" style="overflow: hidden; transition: opacity 0.35s; z-index: 1; background-color: black; opacity: 0;"></div>
+	<header>
+		<nav class="navbar navbar-expand-md navbar-blue container-fluid">
+			<div class="container">
+				
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav">
+						<button type="button" class="nav-item simple-btn">
+							<img src="./img/profile-logo.svg" alt="Profile logo" width="35" height="35">
+						</button>
+						<li class="nav-item">
+							<a href="./index.html" class="nav-link">
+								<button onclick="" type="button" class="fill-btn">
+									خانه
+								</button>
+							</a>
+						</li>
+
+						
+						<li class="nav-item">
+							<a class="nav-link" href="./projects.html">پروژه ها</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">اخبار</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">بلاگ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">درباره ما</a>
+						</li>
+					</ul>
+				</div>
+				
+				<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<ul class="navbar-nav flex-column">
+						<li class="nav-item">
+							<button type="button" class="simple-btn me-2">
+								<img src="./img/profile-logo.svg" alt="Profile logo" width="35" height="35">
+							</button>
+						</li>
+						<li class="nav-item mt-1">
+							<a href="./index.html" class="nav-link">
+								<button onclick="" type="button" class="fill-btn">
+									خانه
+								</button>
+							</a>
+						</li>
+
+						
+						<li class="nav-item">
+							<a class="nav-link" href="./projects.html">پروژه ها</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">اخبار</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">بلاگ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">درباره ما</a>
+						</li>
+					</ul>
+				</div>
+				<button class="navbar-toggler" onclick="openNav()" type="button">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<!-- <img src="./img/logo.png" width="60px" height="60px" alt="taheri inst."> -->
+				</a>
+			</div>
+		</nav>
+	</header>
+	<section class="container-fluid p-0">
+		<div class="container-fluid light-grey">
+			<div class="container-md">
+				<div class="d-flex flex-column pt-5">
+					<div class="d-flex flex-row justify-content-between align-items-center pb-3">
+							<div class="" style="width: 40%; border: 1px solid black;"></div>
+							<h1 class="font-sahel-bold">پروژه ها</h1>
+							<div class="" style="width: 40%; border: 1px solid black;"></div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 flex flex-column">
+							<div class="blue-bg ms-2">
+								<div class="d-flex flex-row align-items-center">
+									<span class="simple-button">
+										<img class="" src="./img/filters.svg" style="width: 25px;" alt="filters-icon">
+									</span>
+									<h2 class="font-sahel pe-3">پروژه ها</h2>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-9">
+							<div class="row">
+								<div class="col m-2 mb-4" style="width: 230px;">
+									<div class="d-flex flex-column jusify-content-center align-items-center">
+										<img class="mb-3" src="./img/project-photo.svg" width="230px" alt="project-photo">
+										<h3 class="font-sahel-bold">پروژه فلان</h3>
+										<p 	class="font-sahel" style="width: 230px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و ...</p>
+										<div class="d-flex flex-wrap" style="max-width: 230px;">
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۱</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۲</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۳</button>
+										</div>
+									</div>
+								</div>
+								<div class="col m-2 mb-4" style="width: 230px;">
+									<div class="d-flex flex-column jusify-content-center align-items-center">
+										<img class="mb-3" src="./img/project-photo.svg" width="230px" alt="project-photo">
+										<h3 class="font-sahel-bold">پروژه فلان</h3>
+										<p 	class="font-sahel" style="width: 230px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و ...</p>
+										<div class="d-flex flex-wrap" style="max-width: 230px;">
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۱</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۲</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۳</button>
+										</div>
+									</div>
+								</div>
+								<div class="col m-2 mb-4" style="width: 230px;">
+									<div class="d-flex flex-column jusify-content-center align-items-center">
+										<img class="mb-3" src="./img/project-photo.svg" width="230px" alt="project-photo">
+										<h3 class="font-sahel-bold">پروژه فلان</h3>
+										<p 	class="font-sahel" style="width: 230px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و ...</p>
+										<div class="d-flex flex-wrap" style="max-width: 230px;">
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۱</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۲</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۳</button>
+										</div>
+									</div>
+								</div>
+								<div class="col m-2 mb-4" style="width: 230px;">
+									<div class="d-flex flex-column jusify-content-center align-items-center">
+										<img class="mb-3" src="./img/project-photo.svg" width="230px" alt="project-photo">
+										<h3 class="font-sahel-bold">پروژه فلان</h3>
+										<p 	class="font-sahel" style="width: 230px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و ...</p>
+										<div class="d-flex flex-wrap" style="max-width: 230px;">
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۱</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۲</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۳</button>
+										</div>
+									</div>
+								</div>
+								<div class="col m-2 mb-4" style="width: 230px;">
+									<div class="d-flex flex-column jusify-content-center align-items-center">
+										<img class="mb-3" src="./img/project-photo.svg" width="230px" alt="project-photo">
+										<h3 class="font-sahel-bold">پروژه فلان</h3>
+										<p 	class="font-sahel" style="width: 230px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و ...</p>
+										<div class="d-flex flex-wrap" style="max-width: 230px;">
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۱</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۲</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۳</button>
+										</div>
+									</div>
+								</div>
+								<div class="col m-2 mb-4" style="width: 230px;">
+									<div class="d-flex flex-column jusify-content-center align-items-center">
+										<img class="mb-3" src="./img/project-photo.svg" width="230px" alt="project-photo">
+										<h3 class="font-sahel-bold">پروژه فلان</h3>
+										<p 	class="font-sahel" style="width: 230px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و ...</p>
+										<div class="d-flex flex-wrap" style="max-width: 230px;">
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۱</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۲</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۳</button>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+					<!-- <img src="./img/aboutus-photo.svg" width="150" height="147" class="col-md-3 my-5" alt="photo">
+					<div id="about-us" class="col-md-9 flex my-5">
+						<h1 class="font-sahel-bold">درباره ما</h1>
+						<p class="font-sahel fs-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+						<button type="button" class="offset font-sahel-bold float-start mx-4" style="font-family: Sahelbold;">بیشتر درباره ما</button>
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container-fluid primary-bg">
+			<div class="container" >
+				<div class="row">
+					<div class="col-md d-flex flex-column justify-content-center align-items-center py-5">
+						<!-- <img src="./img/logo.png" width="65" class="my-2" alt="photo"> -->
+						<div class="" style="padding-left: 5%;">
+							<div class="my-3 d-flex align-items-center flex-row-reverse">
+								<img src="./img/phone.svg" width="30" class="" alt="photo">
+								<h4 class="text-light fs-5 mx-2 my-0" style="direction: ltr;">+71 32323232</h4>
+							</div>
+							<div class="my-3 d-flex align-items-center flex-row-reverse">
+								<img src="./img/website.svg" width="30" class="" alt="photo">
+								<h4 class="text-light fs-5 mx-2 my-0" style="direction: ltr;">www.domain.com</h4>
+							</div>
+							<div class="my-3 d-flex align-items-center flex-row-reverse">
+								<img src="./img/email.svg" width="30" class="" alt="photo">
+								<h4 class="text-light fs-5 mx-2 my-0" style="direction: ltr;">email@domain.com</h4>
+							</div>
+							<div class="my-3 d-flex align-items-center flex-row-reverse">
+								<img src="./img/address.svg" width="30" class="" alt="photo">
+								<h4 class="text-light fs-5 mx-2 my-0" style="direction: ltr;">Address</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="py-5">
+							<h3 class="font-sahel text-grey mx-3">دسترسی سریع</h3>
+							<div class="d-flex flex-wrap m-4">
+								<h5 class="font-sahel fs-6 text-light mx-2">لینک سریع</h5>
+								<h5 class="font-sahel fs-6 text-light mx-2">لینک سریع</h5>
+								<h5 class="font-sahel fs-6 text-light mx-2">لینک سریع</h5>
+								<h5 class="font-sahel fs-6 text-light mx-2">لینک سریع</h5>
+								<h5 class="font-sahel fs-6 text-light mx-2">لینک سریع</h5>
+								<h5 class="font-sahel fs-6 text-light mx-2">لینک سریع</h5>
+								<h5 class="font-sahel fs-6 text-light mx-2">لینک سریع</h5>
+								<h5 class="font-sahel fs-6 text-light mx-2">لینک سریع</h5>
+								<h5 class="font-sahel fs-6 text-light mx-2">لینک سریع</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="py-5">
+							<h3 class="font-sahel text-grey mx-3 mb-4">ارسال تیکت</h3>
+							<div class="row my-2">
+								<div class="col-4">
+									<label class="font-sahel text-grey mx-3">اسم</label>
+								</div>
+								<div class="col-7">
+									<input class="form-control form-control-sm">
+								</div>
+							</div>
+							<div class="row my-2">
+								<div class="col-4">
+									<label class="font-sahel text-grey mx-3">ایمیل</label>
+								</div>
+								<div class="col-7">
+									<input class="form-control form-control-sm">
+								</div>
+							</div>
+							<div class="row my-2">
+								<div class="col-4">
+									<label class="font-sahel text-grey mx-3">متن تیکت</label>
+								</div>
+								<div class="col-7">
+									<textarea class="form-control form-control-sm"></textarea>
+								</div>
+							</div>
+							<button onclick="openNav()" type="button" class="fill-btn float-start ms-4 px-3 mt-3 mb-5">
+								ارسال تیکت
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid d-flex justify-content-center align-items-center p-0 m-0" style="background-color: #495a71ff; height: 50px;">
+			<p class="m-0 p-0 text-light" style="font-family: Tanha;">لایسنس وبسایت و کپی رایت - License and Copyright</p>
+		</div>
+	</footer>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+			document.getElementById("content-opacity").style.opacity = "0.8";
+			document.getElementById("content-opacity").style.width = "100vw";
+		}
+		
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+			document.getElementById("content-opacity").style.opacity = "0";
+			document.getElementById("content-opacity").style.width = "0";
+			document.body.style.backgroundColor = "white";
+		}
+	</script>
+	
+</body>
+</html>
