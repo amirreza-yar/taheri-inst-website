@@ -10,26 +10,20 @@
 	<link rel="stylesheet" href="./sass/abstracts/fonts.css">
 </head>
 <body dir="rtl">
+	<div id="content-opacity" onclick="closeNav()" class="vh-100 w-0 position-fixed" style="overflow: hidden; transition: opacity 0.35s; z-index: 1; background-color: black; opacity: 0;"></div>
 	<header>
 		<nav class="navbar navbar-expand-md navbar-blue container-fluid">
 			<div class="container">
 				
-				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<div class="collapse navbar-collapse">
 					<ul class="navbar-nav">
 						<button type="button" class="nav-item simple-btn">
 							<img src="./img/profile-logo.svg" alt="Profile logo" width="35" height="35">
 						</button>
-						<button onclick="openNav()" type="button" class="nav-item fill-btn">
+						<button onclick="" type="button" class="nav-item fill-btn">
 							خانه
 						</button>
 
-						<div id="mySidenav" class="sidenav">
-							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-							<a href="#">About</a>
-							<a href="#">Services</a>
-							<a href="#">Clients</a>
-							<a href="#">Contact</a>
-						</div>
 						
 						<li class="nav-item">
 							<a class="nav-link" href="#">پروژه ها</a>
@@ -45,7 +39,33 @@
 						</li>
 					</ul>
 				</div>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+				
+				<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<ul class="navbar-nav flex-column">
+						<button type="button" class="nav-item simple-btn">
+							<img src="./img/profile-logo.svg" alt="Profile logo" width="35" height="35">
+						</button>
+						<button onclick="" type="button" class="nav-item fill-btn">
+							خانه
+						</button>
+
+						
+						<li class="nav-item">
+							<a class="nav-link" href="#">پروژه ها</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">اخبار</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">بلاگ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">درباره ما</a>
+						</li>
+					</ul>
+				</div>
+				<button class="navbar-toggler" onclick="openNav()" type="button">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<a class="navbar-brand" href="#">
@@ -216,10 +236,15 @@
 	<script>
 		function openNav() {
 			document.getElementById("mySidenav").style.width = "250px";
+			document.getElementById("content-opacity").style.opacity = "0.8";
+			document.getElementById("content-opacity").style.width = "100vw";
 		}
 		
 		function closeNav() {
 			document.getElementById("mySidenav").style.width = "0";
+			document.getElementById("content-opacity").style.opacity = "0";
+			document.getElementById("content-opacity").style.width = "0";
+			document.body.style.backgroundColor = "white";
 		}
 	</script>
 	

@@ -72,11 +72,11 @@
     
     &:hover,
     &:focus { 
-        border-color: $bg-blue;
+        border-color: $blue-bg;
         color: #253141;
         box-shadow: 
-            0 0 0 0 $bg-blue,
-            inset 6em 3.5em 0 0 $bg-blue;
+            0 0 0 0 $blue-bg,
+            inset 6em 3.5em 0 0 $blue-bg;
     }
 
     background: none;
@@ -87,8 +87,8 @@
     padding: 0.5em 1em;
 
     box-shadow: 
-      0.3em 0.3em 0 0 $bg-blue,
-      inset 0.3em 0.3em 0 0 $bg-blue;
+      0.3em 0.3em 0 0 $blue-bg,
+      inset 0.3em 0.3em 0 0 $blue-bg;
 }
 
 // .offset-btn {

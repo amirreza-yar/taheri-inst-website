@@ -13,12 +13,12 @@ $carousel-control-width: 5% !important;
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: $dark-grey-bg;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.35s;
     padding-top: 60px;
   }
   
