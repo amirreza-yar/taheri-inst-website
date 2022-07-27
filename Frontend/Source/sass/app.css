@@ -12138,6 +12138,11 @@ body, head {
   font-family: Sahelblack;
 }
 
+.accordion-item {
+  background-color: #fff;
+  border: none;
+}
+
 .sidenav {
   height: 100%;
   width: 0;

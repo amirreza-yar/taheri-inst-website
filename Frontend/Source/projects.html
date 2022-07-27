@@ -94,16 +94,101 @@
 							<div class="" style="width: 40%; border: 1px solid black;"></div>
 					</div>
 					<div class="row">
+						<div class="col-md-3 flex flex-column d-sm-none">
+							<div class="ms-2 accordion" style="background-color:rgb(173, 173, 173)">
+
+							</div>
+						</div>
+
 						<div class="col-md-3 flex flex-column">
-							<div class="blue-bg ms-2">
-								<div class="d-flex flex-row align-items-center">
+							<div class="ms-2" style="background-color:rgb(173, 173, 173)">
+								<div class="d-flex flex-row align-items-center px-3 pt-3">
 									<span class="simple-button">
-										<img class="" src="./img/filters.svg" style="width: 25px;" alt="filters-icon">
+										<img class="" src="./img/filters.svg" width="25px" alt="filters-icon">
 									</span>
-									<h2 class="font-sahel pe-3">پروژه ها</h2>
+									<h3 class="font-sahel pe-3 pt-2">فیلتر کردن</h3>
+								</div>
+								<div class="input-group p-3 pb-2" style="direction: ltr;">
+									<button class="btn btn-light" type="button" id="button-addon1">
+										<img src="./img/search.svg" width="20px" alt="search-icon">
+									</button>
+									<input type="text" class="form-control font-sahel" style="direction: rtl;" placeholder="بنویس">
+								</div>
+								<div class="accordion p-3 font-sahel" id="accordionPanelsStayOpenExample">
+									<div class="accordion-item">
+										<h2 class="accordion-header font-sahel-bold" id="panelsStayOpen-headingOne">
+											<button class="accordion-button border-bottom" style="background-color:rgb(173, 173, 173);" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+												فیلتر۱
+											</button>
+										</h2>
+										<div id="panelsStayOpen-collapseOne" style="background-color:rgb(207, 206, 206);" class="accordion-collapse collapse show border-bottom" aria-labelledby="panelsStayOpen-headingOne">
+											<div class="accordion-body">
+												<div class="form-check py-1">
+													<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+													<label class="form-check-label" for="flexCheckDefault">
+														آپشن۱
+													</label>
+												</div>
+												<div class="form-check py-1">
+													<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+													<label class="form-check-label" for="flexCheckDefault">
+														آپشن۲
+													</label>
+												</div>
+												<div class="form-check py-1">
+													<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+													<label class="form-check-label" for="flexCheckDefault">
+														آپشن۳
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h2 class="accordion-header font-sahel-bold" id="panelsStayOpen-headingTwo">
+											<button class="accordion-button collapsed border-bottom" style="background-color:rgb(173, 173, 173)" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+												فیلتر۲
+											</button>
+										</h2>
+										<div id="panelsStayOpen-collapseTwo" style="background-color:rgb(207, 206, 206);" class="accordion-collapse collapse show border-bottom" aria-labelledby="panelsStayOpen-headingTwo">
+											<div class="accordion-body">
+												<div class="form-check py-1">
+													<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+													<label class="form-check-label" for="flexCheckDefault">
+														آپشن۱
+													</label>
+												</div>
+												<div class="form-check py-1">
+													<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+													<label class="form-check-label" for="flexCheckDefault">
+														آپشن۲
+													</label>
+												</div>
+												<div class="form-check py-1">
+													<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+													<label class="form-check-label" for="flexCheckDefault">
+														آپشن۳
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="p-3 border-bottom">
+										<div class="form-check form-switch">
+											<input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+											<label class="form-check-label font-sahel-bold" for="flexSwitchCheckDefault">فیلتر۳</label>
+										</div>
+									</div>
+									<div class="p-3 mb-2 border-bottom">
+										<div class="form-check form-switch">
+											<input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" checked>
+											<label class="form-check-label font-sahel-bold" for="flexSwitchCheckDefault">فیلتر۴</label>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
+					<!-- </div> -->
 						<div class="col-md-9">
 							<div class="row">
 								<div class="col m-2 mb-4" style="width: 230px;">
@@ -112,9 +197,9 @@
 										<h3 class="font-sahel-bold">پروژه فلان</h3>
 										<p 	class="font-sahel" style="width: 230px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و ...</p>
 										<div class="d-flex flex-wrap" style="max-width: 230px;">
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۱</button>
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۲</button>
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۳</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۱</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۲</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۳</button>
 										</div>
 									</div>
 								</div>
@@ -124,9 +209,9 @@
 										<h3 class="font-sahel-bold">پروژه فلان</h3>
 										<p 	class="font-sahel" style="width: 230px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و ...</p>
 										<div class="d-flex flex-wrap" style="max-width: 230px;">
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۱</button>
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۲</button>
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۳</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۱</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۲</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۳</button>
 										</div>
 									</div>
 								</div>
@@ -136,9 +221,9 @@
 										<h3 class="font-sahel-bold">پروژه فلان</h3>
 										<p 	class="font-sahel" style="width: 230px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و ...</p>
 										<div class="d-flex flex-wrap" style="max-width: 230px;">
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۱</button>
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۲</button>
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۳</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۱</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۲</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۳</button>
 										</div>
 									</div>
 								</div>
@@ -148,9 +233,9 @@
 										<h3 class="font-sahel-bold">پروژه فلان</h3>
 										<p 	class="font-sahel" style="width: 230px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و ...</p>
 										<div class="d-flex flex-wrap" style="max-width: 230px;">
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۱</button>
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۲</button>
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۳</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۱</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۲</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۳</button>
 										</div>
 									</div>
 								</div>
@@ -160,9 +245,9 @@
 										<h3 class="font-sahel-bold">پروژه فلان</h3>
 										<p 	class="font-sahel" style="width: 230px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و ...</p>
 										<div class="d-flex flex-wrap" style="max-width: 230px;">
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۱</button>
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۲</button>
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۳</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۱</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۲</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۳</button>
 										</div>
 									</div>
 								</div>
@@ -172,13 +257,12 @@
 										<h3 class="font-sahel-bold">پروژه فلان</h3>
 										<p 	class="font-sahel" style="width: 230px;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و ...</p>
 										<div class="d-flex flex-wrap" style="max-width: 230px;">
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۱</button>
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۲</button>
-											<button class="primary-bg font-sahel rounded-pill px-2 m-1" style="border: none;">هشتگ۳</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۱</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۲</button>
+											<button class="primary-bg font-sahel rounded-pill px-2 m-1 border-0 text-light">هشتگ۳</button>
 										</div>
 									</div>
 								</div>
-
 							</div>
 						</div>
 					</div>
@@ -190,7 +274,6 @@
 						<p class="font-sahel fs-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
 						<button type="button" class="offset font-sahel-bold float-start mx-4" style="font-family: Sahelbold;">بیشتر درباره ما</button>
 					</div> -->
-				</div>
 			</div>
 		</div>
 	</section>
